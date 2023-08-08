@@ -7,16 +7,16 @@
     
 }
 #main{
-    display: flex;
-    text-align: center;
-    align-items: center;
+    
+
     font-size:700%;
     height: 100vh;
     background-color: aquamarine;
-    justify-content: center;
 }
 #clock{
     display: inline;
+    text-align: center;
+    align-items: center;
 }
 #navigation-bar{
 
@@ -25,4 +25,16 @@
 }
 body{
     margin:0;
+}
+.hidden{
+    display:none;
+}
+#hamberger{
+    width:30px;
+    opacity:0.8;
+    overflow: hidden;
+    margin-bottom:90px;
+    margin-left:10px;
+    
+
 }
